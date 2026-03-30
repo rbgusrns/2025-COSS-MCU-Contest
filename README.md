@@ -1,12 +1,18 @@
 # 2025 COSS MCU Contest
 
 <p align="center">
-  2025 COSS 차세대반도체 MCU 응용 경진대회 기록 저장소<br />
-  <strong>홍박사와 아이들</strong> 팀의 1일차, 2일차 과제를 한 곳에 모았습니다.
+  Archive of our work for the 2025 COSS Next Semiconductor MCU Application Contest<br />
+  Built by <strong>Hong Baksa and Kids</strong> across Day 1 and Day 2 challenges.
 </p>
 
 <p align="center">
-  빠른 링크<br />
+  <a href="./poster.png">
+    <img src="./poster.png" alt="2025 COSS MCU Contest poster" width="560" />
+  </a>
+</p>
+
+<p align="center">
+  Quick Links<br />
   <a href="./홍박사와%20아이들%201일차%20과제/과제%20A/홍박사와%20아이들%20과제%20A%20시연%20영상.mp4">Day 1 Demo A</a>
   ·
   <a href="./홍박사와%20아이들%201일차%20과제/과제%20B/홍박사와%20아이들과제%20B%20시연%20영상.mp4">Day 1 Demo B</a>
@@ -16,111 +22,111 @@
   <a href="./홍박사와%20아이들%202일차%20과제/STM/2일차%20시연영상_STM32.mp4">Day 2 STM32 Demo</a>
 </p>
 
-이 레포지토리는 ATtiny85, AVR, STM32를 기반으로 만든 4개의 MCU 프로젝트를 담고 있습니다.
-단순히 소스 코드만 모아둔 저장소가 아니라, 회로도, 보고서, 시연 영상까지 함께 정리해서
-각 결과물을 한눈에 볼 수 있도록 구성했습니다.
+This repository collects four MCU projects built with ATtiny85, AVR, and STM32.
+It is organized as a compact contest portfolio, with source code, reports, circuit diagrams,
+and demo videos kept together so each result can be reviewed in one place.
 
-## At A Glance
+## At a Glance
 
-| Day | Project | Platform | 핵심 요소 | Quick Links |
+| Day | Project | Platform | Focus | Quick Links |
 | --- | --- | --- | --- | --- |
-| 1일차 A | 스톱워치 / 시한폭탄 | ATtiny85 + TM1650 | 7세그 표시, 버튼 입력, 부저, LED, 타이머 인터럽트 | [Code](./홍박사와%20아이들%201일차%20과제/과제%20A/main.c) / [Report](./홍박사와%20아이들%201일차%20과제/과제%20A/홍박사와%20아이들%20과제%20A%20보고서.pdf) / [Demo](./홍박사와%20아이들%201일차%20과제/과제%20A/홍박사와%20아이들%20과제%20A%20시연%20영상.mp4) |
-| 1일차 B | 호텔 금고 | ATtiny85 + TM1650 | 비밀번호 입력, 잠금 상태 머신, 사운드, 성공/오답 피드백 | [Code](./홍박사와%20아이들%201일차%20과제/과제%20B/main.c) / [Report](./홍박사와%20아이들%201일차%20과제/과제%20B/홍박사와%20아이들%20과제%20B%20보고서.pdf) / [Demo](./홍박사와%20아이들%201일차%20과제/과제%20B/홍박사와%20아이들과제%20B%20시연%20영상.mp4) |
-| 2일차 AVR | HUB75 LED 테트리스 | AVR + Dual HUB75 64x32 | 가상 64x64 렌더링, 게임 로직, 점수 연출, PWM 스캔 | [Code](./홍박사와%20아이들%202일차%20과제/AVR/main.c) / [Report](./홍박사와%20아이들%202일차%20과제/AVR/홍박사와%20아이들%202일차%20AVR%20보고서.pdf) / [Demo](./홍박사와%20아이들%202일차%20과제/AVR/홍박사와아이들%201일차%20시연영상_AVR.mp4) |
-| 2일차 STM32 | LED MATRIX - 광안리의 밤 | STM32 + HUB75 Panel | 불꽃 애니메이션, 배경 합성, 교통 오버레이, 사운드 PWM | [Code](./홍박사와%20아이들%202일차%20과제/STM/소스파일/main.c) / [Report](./홍박사와%20아이들%202일차%20과제/STM/홍박사와%20아이들%202일차%20STM32%20보고서.pdf) / [Demo](./홍박사와%20아이들%202일차%20과제/STM/2일차%20시연영상_STM32.mp4) |
+| Day 1 A | Stopwatch / Bomb Timer | ATtiny85 + TM1650 | 7-segment display, button input, buzzer, LED, timer interrupts | [Code](./홍박사와%20아이들%201일차%20과제/과제%20A/main.c) / [Report](./홍박사와%20아이들%201일차%20과제/과제%20A/홍박사와%20아이들%20과제%20A%20보고서.pdf) / [Demo](./홍박사와%20아이들%201일차%20과제/과제%20A/홍박사와%20아이들%20과제%20A%20시연%20영상.mp4) |
+| Day 1 B | Hotel Safe | ATtiny85 + TM1650 | Password input, lock state machine, audio feedback, success/error interaction | [Code](./홍박사와%20아이들%201일차%20과제/과제%20B/main.c) / [Report](./홍박사와%20아이들%201일차%20과제/과제%20B/홍박사와%20아이들%20과제%20B%20보고서.pdf) / [Demo](./홍박사와%20아이들%201일차%20과제/과제%20B/홍박사와%20아이들과제%20B%20시연%20영상.mp4) |
+| Day 2 AVR | HUB75 LED Tetris | AVR + Dual HUB75 64x32 | Virtual 64x64 rendering, game logic, scoring effects, PWM scan loop | [Code](./홍박사와%20아이들%202일차%20과제/AVR/main.c) / [Report](./홍박사와%20아이들%202일차%20과제/AVR/홍박사와%20아이들%202일차%20AVR%20보고서.pdf) / [Demo](./홍박사와%20아이들%202일차%20과제/AVR/홍박사와아이들%201일차%20시연영상_AVR.mp4) |
+| Day 2 STM32 | LED MATRIX - Night of Gwangalli | STM32 + HUB75 Panel | Fireworks animation, background composition, traffic overlay, PWM sound | [Code](./홍박사와%20아이들%202일차%20과제/STM/소스파일/main.c) / [Report](./홍박사와%20아이들%202일차%20과제/STM/홍박사와%20아이들%202일차%20STM32%20보고서.pdf) / [Demo](./홍박사와%20아이들%202일차%20과제/STM/2일차%20시연영상_STM32.mp4) |
 
 ## Highlights
 
 ### Day 1 - ATtiny85 Projects
 
-#### 1) 스톱워치 / 시한폭탄
+#### 1) Stopwatch / Bomb Timer
 
-ATtiny85와 TM1650 4자리 7세그먼트를 이용해 만든 타이머 프로젝트입니다.
-일반 스톱워치 모드와 시한폭탄 타이머 모드를 오가며, 0.1초 단위 시간 제어와
-버튼 기반 상태 전환, 부저 경고음, LED 피드백을 구현했습니다.
+This project uses an ATtiny85 and a TM1650 4-digit 7-segment module to build a dual-mode timer.
+It switches between a standard stopwatch mode and a bomb timer mode, while handling 0.1-second timing,
+button-based state transitions, buzzer warnings, and LED feedback.
 
-- 주요 포인트
-  - Timer0 기반 1ms 시스템 타이머
-  - Timer1 PWM 기반 부저 출력
-  - TM1650 소프트웨어 I2C 제어
-  - 폭탄 모드 전용 카운트다운/멜로디 로직
+- Key points
+  - Timer0-based 1 ms system timer
+  - Timer1 PWM buzzer output
+  - Software I2C control for the TM1650
+  - Dedicated countdown and melody logic for bomb mode
 
-- 바로가기
-  - [소스 코드](./홍박사와%20아이들%201일차%20과제/과제%20A/main.c)
-  - [보고서](./홍박사와%20아이들%201일차%20과제/과제%20A/홍박사와%20아이들%20과제%20A%20보고서.pdf)
-  - [회로도](./홍박사와%20아이들%201일차%20과제/과제%20A/홍박사와%20아이들%20과제%20A%20회로도.pdf)
-  - [시연 영상](./홍박사와%20아이들%201일차%20과제/과제%20A/홍박사와%20아이들%20과제%20A%20시연%20영상.mp4)
+- Links
+  - [Source Code](./홍박사와%20아이들%201일차%20과제/과제%20A/main.c)
+  - [Report](./홍박사와%20아이들%201일차%20과제/과제%20A/홍박사와%20아이들%20과제%20A%20보고서.pdf)
+  - [Circuit Diagram](./홍박사와%20아이들%201일차%20과제/과제%20A/홍박사와%20아이들%20과제%20A%20회로도.pdf)
+  - [Demo Video](./홍박사와%20아이들%201일차%20과제/과제%20A/홍박사와%20아이들%20과제%20A%20시연%20영상.mp4)
 
-#### 2) 호텔 금고
+#### 2) Hotel Safe
 
-ATtiny85와 TM1650 키패드를 이용한 4자리 비밀번호 금고 프로젝트입니다.
-비밀번호 확인, 설정 모드, 오답 횟수 누적, 10초 잠금, 성공 애니메이션과 멜로디를
-상태 머신 형태로 구성해 인터랙션에 집중했습니다.
+This project turns an ATtiny85 and TM1650 keypad/display setup into a 4-digit password safe.
+It focuses on password checking, setting mode, repeated failure tracking, a 10-second lock state,
+and responsive audio and display feedback for success and error cases.
 
-- 주요 포인트
-  - 비밀번호 입력/수정 상태 관리
-  - 오답 4회 이상 시 잠금 카운트다운
-  - 타이머 인터럽트 기반 비동기 사운드 시스템
-  - 성공/실패에 따른 세그먼트 애니메이션
+- Key points
+  - Password input and edit state management
+  - Lock countdown after four failed attempts
+  - Interrupt-driven asynchronous sound system
+  - Segment animation for success and failure feedback
 
-- 바로가기
-  - [소스 코드](./홍박사와%20아이들%201일차%20과제/과제%20B/main.c)
-  - [보고서](./홍박사와%20아이들%201일차%20과제/과제%20B/홍박사와%20아이들%20과제%20B%20보고서.pdf)
-  - [회로도](./홍박사와%20아이들%201일차%20과제/과제%20B/홍박사와%20아이들%20과제%20B%20회로도.pdf)
-  - [시연 영상](./홍박사와%20아이들%201일차%20과제/과제%20B/홍박사와%20아이들과제%20B%20시연%20영상.mp4)
+- Links
+  - [Source Code](./홍박사와%20아이들%201일차%20과제/과제%20B/main.c)
+  - [Report](./홍박사와%20아이들%201일차%20과제/과제%20B/홍박사와%20아이들%20과제%20B%20보고서.pdf)
+  - [Circuit Diagram](./홍박사와%20아이들%201일차%20과제/과제%20B/홍박사와%20아이들%20과제%20B%20회로도.pdf)
+  - [Demo Video](./홍박사와%20아이들%201일차%20과제/과제%20B/홍박사와%20아이들과제%20B%20시연%20영상.mp4)
 
 ### Day 2 - Display Projects
 
-#### 3) HUB75 LED 테트리스 (AVR)
+#### 3) HUB75 LED Tetris (AVR)
 
-64x32 HUB75 패널 두 장을 세로로 체인해 가상 64x64 화면을 만들고,
-그 위에 2배 스케일 테트리스를 구현한 프로젝트입니다.
-입력 오토리핏, 자동 낙하, 충돌/라인 삭제, 점수 연출, GAME/END 및 STAGE CLEAR 화면을
-하나의 패널 렌더링 흐름 안에 담은 프로젝트입니다.
+This AVR project chains two 64x32 HUB75 panels vertically to create a virtual 64x64 display
+and runs a 2x-scale Tetris implementation on top of it. It includes input auto-repeat, automatic drop,
+collision and line-clear handling, score effects, and GAME/END plus STAGE CLEAR rendering states.
 
 <p align="center">
   <img src="./홍박사와%20아이들%202일차%20과제/AVR/홍박사와%20아이들%202일차%20과제%20AVR%20회로도.png" alt="AVR HUB75 Tetris circuit" width="780" />
 </p>
 
-- 주요 포인트
-  - HUB75 행쌍 스캔 + 2비트 PWM
-  - 가상 64x64 좌표계 기반 렌더링
-  - 점수에 따른 속도 변화와 이벤트 연출
-  - AVR 환경에 맞춘 경량 게임 로직 구성
+- Key points
+  - HUB75 row-pair scan with 2-bit PWM
+  - Virtual 64x64 coordinate-based rendering
+  - Score-driven speed changes and stage effects
+  - Lightweight game logic tuned for AVR constraints
 
-- 바로가기
-  - [소스 코드](./홍박사와%20아이들%202일차%20과제/AVR/main.c)
-  - [보고서](./홍박사와%20아이들%202일차%20과제/AVR/홍박사와%20아이들%202일차%20AVR%20보고서.pdf)
-  - [회로도 PNG](./홍박사와%20아이들%202일차%20과제/AVR/홍박사와%20아이들%202일차%20과제%20AVR%20회로도.png)
-  - [시연 영상](./홍박사와%20아이들%202일차%20과제/AVR/홍박사와아이들%201일차%20시연영상_AVR.mp4)
+- Links
+  - [Source Code](./홍박사와%20아이들%202일차%20과제/AVR/main.c)
+  - [Report](./홍박사와%20아이들%202일차%20과제/AVR/홍박사와%20아이들%202일차%20AVR%20보고서.pdf)
+  - [Circuit Diagram PNG](./홍박사와%20아이들%202일차%20과제/AVR/홍박사와%20아이들%202일차%20과제%20AVR%20회로도.png)
+  - [Demo Video](./홍박사와%20아이들%202일차%20과제/AVR/홍박사와아이들%201일차%20시연영상_AVR.mp4)
 
-#### 4) LED MATRIX - 광안리의 밤 (STM32)
+#### 4) LED MATRIX - Night of Gwangalli (STM32)
 
-128x32 LED 매트릭스 위에 불꽃놀이, 다리 배경, 차량 애니메이션, 효과음을 결합한
-시각 중심 프로젝트입니다. TIM2 인터럽트 기반 패널 스캔, 프레임버퍼 렌더링,
-불꽃 물리 시뮬레이션, TIM3 PWM 사운드를 모듈로 분리해 구성했습니다.
+This visual project combines fireworks, a bridge background, moving traffic, and sound on a 128x32 LED matrix.
+It is structured around TIM2 interrupt-driven panel scanning, framebuffer rendering, fireworks simulation,
+and TIM3 PWM-based audio output split across several modules.
 
 <p align="center">
   <img src="./홍박사와%20아이들%202일차%20과제/STM/홍박사와%20아이들%202일차%20과제%20STM32%20회로도.png" alt="STM32 fireworks circuit" width="780" />
 </p>
 
-- 주요 포인트
-  - `panel.c`: HUB75 패널 스캔과 비트플레인 PWM
-  - `fireworks.c`: 불꽃 발사, 폭발, 특수 텍스트 애니메이션
-  - `bridge.c` / `traffic.c`: 배경 이미지와 차량 오버레이
-  - `sound.c`: 상승음/폭발음 기반 효과음 출력
+- Key points
+  - `panel.c`: HUB75 panel scanning and bit-plane PWM
+  - `fireworks.c`: launch, explosion, and special-text animation logic
+  - `bridge.c` / `traffic.c`: background image and moving traffic overlay
+  - `sound.c`: rising and explosion sound effects
 
-- 바로가기
-  - [메인 코드](./홍박사와%20아이들%202일차%20과제/STM/소스파일/main.c)
-  - [보고서](./홍박사와%20아이들%202일차%20과제/STM/홍박사와%20아이들%202일차%20STM32%20보고서.pdf)
-  - [회로도 PNG](./홍박사와%20아이들%202일차%20과제/STM/홍박사와%20아이들%202일차%20과제%20STM32%20회로도.png)
-  - [시연 영상](./홍박사와%20아이들%202일차%20과제/STM/2일차%20시연영상_STM32.mp4)
+- Links
+  - [Main Code](./홍박사와%20아이들%202일차%20과제/STM/소스파일/main.c)
+  - [Report](./홍박사와%20아이들%202일차%20과제/STM/홍박사와%20아이들%202일차%20STM32%20보고서.pdf)
+  - [Circuit Diagram PNG](./홍박사와%20아이들%202일차%20과제/STM/홍박사와%20아이들%202일차%20과제%20STM32%20회로도.png)
+  - [Demo Video](./홍박사와%20아이들%202일차%20과제/STM/2일차%20시연영상_STM32.mp4)
 
 ## Repository Structure
 
 ```text
 2025-COSS-MCU-Contest/
 |- README.md
+|- poster.png
 |- 홍박사와 아이들 1일차 과제/
 |  |- 과제 A/
 |  |  |- main.c
@@ -148,11 +154,11 @@ ATtiny85와 TM1650 키패드를 이용한 4자리 비밀번호 금고 프로젝�
 
 ## Tech Notes
 
-- Day 1 프로젝트는 `ATtiny85`와 `TM1650`을 중심으로 입력, 표시, 사운드, 상태 제어를 다룹니다.
-- Day 2 AVR 프로젝트는 게임 로직과 LED 패널 구동을 한정된 자원 안에서 풀어낸 예제입니다.
-- Day 2 STM32 프로젝트는 모듈 분리와 타이머 기반 제어가 비교적 뚜렷해, 패널 구동 구조를 따라가며 보기 좋습니다.
+- The Day 1 projects focus on input, display control, sound, and state handling around `ATtiny85` and `TM1650`.
+- The Day 2 AVR project explores game logic and LED panel driving under tight resource constraints.
+- The Day 2 STM32 project is more modular, with timer-driven panel refresh, animation, overlay, and sound separated into dedicated files.
 
 ## Team
 
-- 팀명: 홍박사와 아이들
-- 팀원: 박규현, 임송주, 송성혁, 홍순현
+- Team Name: Hong Baksa and Kids
+- Members: Park Gyuhyeon, Lim Songju, Song Seonghyeok, Hong Sunhyeon

@@ -161,4 +161,5 @@ and TIM3 PWM-based audio output split across several modules.
 ## Team
 
 - Team Name: Hong Baksa and Kids
+- Team Lead: Park Gyuhyeon
 - Members: Park Gyuhyeon, Lim Songju, Song Seonghyeok, Hong Sunhyeon

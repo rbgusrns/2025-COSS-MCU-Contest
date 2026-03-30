@@ -164,7 +164,7 @@ This project was developed by a five-member team.
 
 | Role | Name |
 | --- | --- |
-| Team Leader | Hong Sunghyun |
-| Member | Park Gyuhyeon |
+| Team Leader | Park Gyuhyeon |
+| Member | Hong Sunghyun |
 | Member | Song Seonghyeok |
 | Member | Lim Songju |

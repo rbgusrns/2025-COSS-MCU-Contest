@@ -168,4 +168,3 @@ This project was developed by a five-member team.
 | Member | Park Gyuhyeon |
 | Member | Song Seonghyeok |
 | Member | Lim Songju |
-| Member | Park Yonghui |

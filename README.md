@@ -10,7 +10,7 @@
     <img src="./poster.png" alt="2025 COSS MCU Contest poster" width="560" />
   </a>
 </p>
-
+ 
 <p align="center">
   Quick Links<br />
   <a href="./홍박사와%20아이들%201일차%20과제/과제%20A/홍박사와%20아이들%20과제%20A%20시연%20영상.mp4">Day 1 Demo A</a>

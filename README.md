@@ -165,6 +165,6 @@ This project was developed by a five-member team.
 | Role | Name |
 | --- | --- |
 | Team Leader | Park Gyuhyeon |
-| Member | Hong Sunghyun |
+| Member | Hong Soonhyun |
 | Member | Song Seonghyeok |
 | Member | Lim Songju |

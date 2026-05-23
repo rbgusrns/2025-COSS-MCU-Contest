@@ -160,7 +160,7 @@ and TIM3 PWM-based audio output split across several modules.
 
 ## Team
 
-This project was developed by a five-member team.
+This project was developed by a 4-member team.
 
 | Role | Name |
 | --- | --- |
